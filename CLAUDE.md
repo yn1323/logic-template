@@ -13,10 +13,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - 型チェック: `pnpm type-check`
   - linter: `pnpm lint`
   また、これらのテストを実施するときはSub Agentでタスクを並列化して確認すること。
-- YOU MUST: 必ずSerena MCPを通してタスクを計画・実行すること
 - YOU MUST: 実装完了後のテスト確認は各々の確認をそれぞれのsub agentで行ってください
 - YOU MUST: 調査タスクを行う際は積極的にcontext7 mcp、sequential-thinking mcpを利用すること
 - YOU MUST: 質問をする場合は、１つずつ質問してください。チャットなので。。。
+- YOU MUST: 必ず日本語で返答してください
 
 ### IMPORTANT（重要事項）
 - IMPORTANT: 3ステップ以上でTodoWrite使用
