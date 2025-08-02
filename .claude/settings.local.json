@@ -8,7 +8,9 @@
       "Bash(npm run lint:*)",
       "Bash(npm run type-check:*)",
       "Bash(npm uninstall:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
