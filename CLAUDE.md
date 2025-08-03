@@ -9,9 +9,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### YOU MUST（必須事項）
 - YOU MUST: 作業完了前にCIを実行してエラーが0件になっていること（下記順番で実施すること）
-  - linter自動修正: `pnpm lint:fix`
-  - 型チェック: `pnpm type-check`
-  - linter: `pnpm lint`
+  - linter自動修正: `npm lint:fix`
+  - 型チェック: `npm type-check`
+  - linter: `npm lint`
   また、これらのテストを実施するときはSub Agentでタスクを並列化して確認すること。
 - YOU MUST: 実装完了後のテスト確認は各々の確認をそれぞれのsub agentで行ってください
 - YOU MUST: 調査タスクを行う際は積極的にcontext7 mcp、sequential-thinking mcpを利用すること
